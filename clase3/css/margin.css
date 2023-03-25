@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+}
+
+h1{
+    margin: 56px;
+}
+
+#verde{
+    height: 120px;
+    width: 200px;
+    background-color: #afef96;
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+#amarillo{
+    height: 100px;
+    width: 200px;
+    background-color: #eaef96;
+    margin: auto; /* centrar una caja */
+}
+#rojo{
+    height: 120px;
+    width: 200px;
+    background-color: #f89393;
+}
