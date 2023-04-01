@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3f3f3;
+    color: #252525;
+    font-family: Montserrat, sans-serif;
+    width: 650px;
+    margin: 32px auto;
+}
+
+#naranja{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(246, 172, 123);
+    padding: 50px;
+}
+#verde{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(123, 246, 144);
+}
+
+#contenedor{
+    background-color: #ccc;
+    height: 450px;
+    margin: 32px 0px;
+
+    display: flex;
+    /*### eje horizontal - x ###*/
+    /* justify-content: start; /* predeterminado - a la izquierda */
+    /* justify-content: end; /* a la derecha */
+    /* justify-content: center; /* contenido centrado  */
+    justify-content: space-evenly;
+}
+
+
+#contenedor2{
+    background-color: #ccc;
+    height: 450px;
+    margin: 32px 0px;
+
+    display: flex;
+    /*### eje vertical - y ###*/
+    /* align-items: start; /* predeterminado - arriba */
+    /* align-items: end; /* debajo */
+    align-items: center; 
+}
+
+#contenedor3{
+    background-color: #ccc;
+    height: 450px;
+    margin: 32px 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article{
+    width: 150px;
+    height: 120px;
+    background-color: #a3fced;
+}
