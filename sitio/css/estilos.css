@@ -39,3 +39,69 @@ header{
         padding: 6px;
     }
 
+/* main */
+main{
+    width: 960px;
+    margin: auto;
+}
+    /* hero  banner */
+    #hero-banner{
+        height: 450px;
+        background-image: url(../imgs/hero-banner.jpg);
+        background-position: 0 center;
+        background-size: 960px;
+
+        display: flex;
+        align-items: center;
+    }
+        #hero-banner h1{
+            margin-left: 150px;
+            color: #fff;
+            font-size: 32px;
+            width: 288px;
+        }
+
+/* sección promos */
+#promos{
+    margin-top: 52px;
+    height: 382px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAF0E9;
+}
+
+    #promos article{
+        width: 256px;
+    }
+    #promos article h2{
+        font-size: 16px;
+        margin: 12px 0px;
+    }
+
+/* sección servicios */
+#servicios{
+    width: 680px;
+    height: 372px;
+    margin: 52px auto;
+    display: flex;
+    flex-wrap: wrap; /* respeta los anchos */
+
+    column-gap: 100px;
+    row-gap: 32px;
+
+    text-align: center;
+}
+    #servicios h2{
+        width: 100%;
+    }
+    #servicios a{
+        width: 160px;
+        height: 140px;
+        display: block;
+        border: 1px #3C3C3C solid;
+    }
+    .material-symbols-outlined{
+        font-size: 56px;
+        margin: 18px 52px;
+    }
