@@ -100,7 +100,15 @@ main{
         height: 140px;
         display: block;
         border: 1px #3C3C3C solid;
+        border-radius: 12px;
+        color: #3C3C3C;
+        transition: 500ms;
     }
+    #servicios a:hover{
+        background-color: #3c3c3c;
+        color: #fff;
+    }
+
     .material-symbols-outlined{
         font-size: 56px;
         margin: 18px 52px;
