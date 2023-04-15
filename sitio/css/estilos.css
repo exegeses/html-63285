@@ -70,6 +70,21 @@ main{
     align-items: center;
     background-color: #FAF0E9;
 }
+    #promos a{
+        color: #3c3c3c;
+    }
+    #promos a img{
+        filter: grayscale(.5);
+        transition: 500ms;
+    }
+    #promos a:hover{
+        color: rgb(207, 85, 4);
+        transition: 500ms;
+    }
+    #promos a:hover img{
+        filter: grayscale(0);
+        box-shadow: 0 0 6px rgb(207, 85, 4);
+    }
 
     #promos article{
         width: 256px;
@@ -112,4 +127,23 @@ main{
     .material-symbols-outlined{
         font-size: 56px;
         margin: 18px 52px;
+    }
+
+footer{
+    background-color: #3c3c3c;
+    height: 160px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    footer a{
+        color: #fff;
+    }
+        footer a img{
+            vertical-align: middle;
+            margin: 0px 12px 0px 16px;
+        }
+    footer div a i{
+        margin: 0px 12px;
     }
